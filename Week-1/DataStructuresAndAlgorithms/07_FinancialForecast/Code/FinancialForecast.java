@@ -13,7 +13,6 @@ public class FinancialForecast {
         // Recursive call
         return futureValue(currentValue * (1 + growthRate / 100), growthRate, years - 1);
     }
-
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
